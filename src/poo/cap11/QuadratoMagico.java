@@ -38,8 +38,8 @@ public class QuadratoMagico {
     private static boolean isQuadratoMagico(int[][] matrice){
         int n = matrice.length;
         int sommaDiagonale1 = 0, sommaDiagonale2 = 0;
-        int sommaRighe[] = new int[n];
-        int sommaColonne[] = new int[n];
+        int[] sommaRighe = new int[n];
+        int[] sommaColonne = new int[n];
 
         // Calcolo delle somme
         for (int i = 0; i < n; i++) {
