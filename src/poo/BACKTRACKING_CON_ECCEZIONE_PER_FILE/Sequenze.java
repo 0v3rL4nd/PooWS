@@ -1,4 +1,4 @@
-package BACKTRACKING_CON_ECCEZIONE_PER_FILE;
+package poo.BACKTRACKING_CON_ECCEZIONE_PER_FILE;
 
 import org.w3c.dom.ls.LSOutput;
 

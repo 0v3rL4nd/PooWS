@@ -1,6 +1,7 @@
-package Roulettee;
+package poo.Roulettee;
 
-import BACKTRACKING_CON_ECCEZIONE_PER_FILE.Backtracking;
+
+import poo.BACKTRACKING_CON_ECCEZIONE_PER_FILE.Backtracking;
 
 import java.io.IOException;
 import java.util.*;
