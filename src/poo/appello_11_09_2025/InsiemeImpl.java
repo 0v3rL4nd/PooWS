@@ -101,7 +101,7 @@ public class InsiemeImpl<T extends Comparable<? super T>> extends InsiemeAstratt
     public Insieme<T> differenzaSimmetrica(Insieme<T> i) {
         Insieme<T> result;
         Insieme<T> a_b = this.differenza(i);
-        Insieme<T> b_a = i.differenza(i);
+        Insieme<T> b_a = i.differenza(this); //i.differenza(i).... ho per caso bevuto?!
         result = a_b.unione(b_a);
         return result;
     }
