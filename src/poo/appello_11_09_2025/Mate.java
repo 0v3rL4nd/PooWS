@@ -38,7 +38,8 @@ public class Mate {
     public static double[][] matriceInversa(double[][] a) {
         int n = a.length;
         double det = determinante(a);
-        if (Math.abs(det) < 0) {
+        //errore Math.abs(det) è sempre <0.., una matrice è invertibile se det != 0
+        if (det == 0) {
             throw new IllegalArgumentException("La matrice non è invertibile (determinante = 0)");
         }
         double[][] inversa = new double[n][n];

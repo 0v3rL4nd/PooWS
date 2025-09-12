@@ -2,8 +2,8 @@ package poo.appello_11_09_2025;
 
 import java.util.*;
 
-public class InsiemeImpl<T extends Comparable<? super T>> implements Insieme<T> {
-
+public class InsiemeImpl<T extends Comparable<? super T>> extends InsiemeAstratto<T> {
+//ERRORE!! avevo scritto implements Insieme<T>...
     private final LinkedList<T> insieme;
 
     public InsiemeImpl(LinkedList<T> insieme) {
